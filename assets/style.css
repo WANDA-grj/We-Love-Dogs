@@ -52,7 +52,7 @@ nav-link {
 
 .callout-container {
     height: 99vh;
-    background: url("/assets/background_image.jpg") no-repeat center center fixed; 
+    background: url("assets/background_image.jpg") no-repeat center center fixed; 
     background-size: cover;
 
     display: flex;
