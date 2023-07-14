@@ -1,0 +1,213 @@
+body{
+    font-family: 'Belanosima', sans-serif;
+    background-color: #f2f0f0;
+
+}
+
+.container-navbar {
+    top: 0;
+    left: 0;
+    padding-top: 0;
+    padding-left: 0;
+    z-index: -1;
+    
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    position: relative;
+}
+
+.navbar {
+    position:absolute;
+  
+} 
+
+
+.navbar-brand {
+    font-weight: bolder;
+    font-size: xx-large;
+    color: white;
+}
+
+.nav-item a {
+        font-size: large;
+        font-weight: 900;
+        color: white;
+    }
+
+
+.navbar-text {
+    color: white;
+    font-size: larger;
+    font-weight: 900;
+}
+
+
+nav-link {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+
+
+.callout-container {
+    height: 99vh;
+    background: url("/assets/background_image.jpg") no-repeat center center fixed; 
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-txt {
+    color: white;
+    font-size: 1em;
+}
+
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4) ;
+}
+
+
+
+
+.container-testimony {
+    background-color: rgb(237, 231, 224);
+    margin-top: 20em;
+    
+}
+.container-testimony h1,
+h2,
+section h1 {
+    color: rgb(0, 0, 255);
+}
+
+.testimony media-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.blockquote,
+ h3 {
+    font-size: 2em;
+    color: rgb(0, 0, 255);
+}
+
+.blockquote,
+p,
+span,
+blockquote-footer {
+    font-size: 1.5em;
+}
+
+.blockquote,
+span {
+    font-family: cursive;
+}
+
+.section {
+    padding-top: 5em;
+    padding-bottom: 5em;
+    margin-top: 9em;
+    margin-bottom: 9em;
+    font-size: 1em;
+}
+
+.btn {
+    color: white;
+    box-shadow: 0 10px 15px 0 rgba(227, 8, 147, 0.64);
+    
+    }
+
+.footer-container {
+    background-color: #f8f9fa ;
+
+}
+
+.footer-contact a {
+    text-decoration: none;
+    color: black;
+}
+
+/* ------------------------------------------------     about us page ------------------------------------------------*/
+
+.container-about {
+    height: 70em;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    background-color: #F2F0F0;
+}
+
+.about-content {
+    min-height: 70%;
+    padding-top: 3em;
+    padding-bottom: 5em;
+    margin: 2em;
+    background-color: #e7e2e2;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 15px 0 rgba(74, 6, 49, 0.913);
+}
+
+.img-team {
+    box-shadow: 0 10px 15px 0 rgba(74, 6, 49, 0.913);
+}
+
+
+
+/* ------------------------------------------------     contact us page ------------------------------------------------*/
+
+.container-form {
+    background-color: #F2F0F0;
+    height: 70em;
+}
+
+.form-content {
+    background-color: #e7e2e2;  
+    box-shadow: 0 10px 15px 0 rgba(74, 6, 49, 0.913);
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
