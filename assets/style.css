@@ -22,6 +22,18 @@ body{
   
 } 
 
+.callout-container {
+    height: 99vh;
+    background-image: url("./assets/background_image.jpg") no-repeat center center fixed; 
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
 
 .navbar-brand {
     font-weight: bolder;
@@ -48,20 +60,9 @@ nav-link {
     font-weight: bolder;
 }
 
-
-
-.callout-container {
-    height: 99vh;
-    /* background-image: url("../background_image.jpg") no-repeat center center fixed;  */
-    background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
+.navbar-toggler-icon {
+    color: red;
 }
-
 
 .jumbotron {
     background-color: transparent;
