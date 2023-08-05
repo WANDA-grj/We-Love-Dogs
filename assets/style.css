@@ -24,14 +24,32 @@ body{
 
 .callout-container {
     height: 99vh;
-    background-image: url("./assets/background_image.jpg") no-repeat center center fixed; 
     background-size: cover;
-
+    background-image: url("/assets/background_jumbotron.jpg");
     display: flex;
     align-items: center;
     justify-content: center;
 
     position: relative;
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-txt {
+    color: white;
+    font-size: 1em;
+}
+
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4) ;
 }
 
 
@@ -59,31 +77,6 @@ nav-link {
     font-size: 24px;
     font-weight: bolder;
 }
-
-.navbar-toggler-icon {
-    color: red;
-}
-
-.jumbotron {
-    background-color: transparent;
-}
-
-.jumbotron-txt {
-    color: white;
-    font-size: 1em;
-}
-
-
-.opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.4) ;
-}
-
-
 
 
 .container-testimony {
